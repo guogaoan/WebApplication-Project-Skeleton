@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html
+ 	  xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <title>Insert title here</title>
+  	<link rel="stylesheet" type="text/css" media="all" href="../../../resources/bootstrap-3.3.0/css/bootstrap.css"
+          th:href="@{/resources/bootstrap-3.3.0/css/bootstrap.min.css}"/>
+     
+    <link rel="stylesheet" type="text/css" media="all" href="../../../resources/css/gallery.css"
+          th:href="@{/resources/css/gallery.css}"/>
+	          
+	          
+	<!-- script references -->
+	<script src="../../../resources/libs/jquery-1.11.1.js"
+	        th:src="@{/resources/libs/jquery-1.11.1.min.js}"></script>
+	<script src="../../../resources/bootstrap-3.3.0/js/bootstrap.js"
+	        th:src="@{/resources/bootstrap-3.3.0/js/bootstrap.min.js}"></script>
+	<script src="../../../resources/js/custom-scripts.js"
+	        th:src="@{/resources/js/custom-scripts.js}"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mathieu Richard</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#accueil">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+<div id="accueil">
+  <h1>Hello,</h1>
+  <h2>I'm Mathieu Richard</h2>
+</div>
+<div id="gallery">
+    <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/1/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure><figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/2/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/3/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/4/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/2/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/4/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/1/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/3/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/1/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure><figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/2/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/3/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/4/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/2/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/4/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/1/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+  <figure class="col-md-3 col-sm-3 col-xs-12 ">
+      <a href="#">
+      <img class="img" src="http://lorempixel.com/800/400/nature/3/" alt="" />
+        <figcaption>
+            <h2>Legend</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </figcaption>
+        </a>
+    </figure>
+</div>
+<form role="form" id="contact">
+  <div class="form-group">
+    <h1>Contact</h1>
+    <p><input type="text" class="form-control" placeholder="Name"/></p>
+    <p><input type="mail" class="form-control" placeholder="Mail"/></p>
+    <p><textarea name="" class="form-control" id="" rows="5" placeholder="Message"></textarea></p>
+  </div>
+  <button type="submit" class="form-control btn btn-default submit">Submit</button>
+</form>
+
+</body>
+</html>

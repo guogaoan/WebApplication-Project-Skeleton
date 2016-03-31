@@ -30,4 +30,9 @@ public class HomeController {
         return "login";
     }
 
+    @RequestMapping(value = {"/gallery"}, method = RequestMethod.GET)
+    public String getGalleryPage(ModelMap model){
+    	log.debug("at gallery page");
+    	return "gallery-layout";
+    }
 }
