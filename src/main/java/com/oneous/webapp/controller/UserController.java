@@ -28,7 +28,6 @@ public class UserController {
     public String getUserList(Model model) {
         log.debug("getUserList");
         model.addAttribute(userService.findAllUsers());
-
         return "users";
     }
 
